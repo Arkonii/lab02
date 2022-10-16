@@ -46,3 +46,6 @@ function a(user){
     console.log(sum / weights);
 }
 a(user);
+let result = _.find(user.allGrades, {weight:1});
+
+console.log(result);
